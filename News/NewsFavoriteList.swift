@@ -33,6 +33,9 @@ extension NewsFavoriteList: UITableViewDelegate, UITableViewDataSource {
         cell.setup(with: realmItems[indexPath.row])
         return cell
     }
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return realmItems.isEmpty ? false : true
+    }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
     if (editingStyle == .delete) {
         let realm = try! Realm()
