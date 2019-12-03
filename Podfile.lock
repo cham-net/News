@@ -1,0 +1,26 @@
+PODS:
+  - Closures (0.7)
+  - Realm (4.1.1):
+    - Realm/Headers (= 4.1.1)
+  - Realm/Headers (4.1.1)
+  - RealmSwift (4.1.1):
+    - Realm (= 4.1.1)
+
+DEPENDENCIES:
+  - Closures
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Closures
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Closures: a83b9892a5b1c4125a9dfcd53e2754db5d7f6d22
+  Realm: 25f0a8244cbb1c2271c922963ea8666fc2d8104d
+  RealmSwift: 9e2657b33764f80e4a4dffd6d440e24715782052
+
+PODFILE CHECKSUM: c580d3329310031dc87110378a3128d8af3c6fdd
+
+COCOAPODS: 1.8.4
